@@ -32,6 +32,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```html
 math.html
 
 <html>
@@ -111,6 +112,7 @@ from mathapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.powerlamp,name="powerlamp"),]
+```
 ## SERVER SIDE PROCESSING:
 ![alt text](image-1.png)
 
